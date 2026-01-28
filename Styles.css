@@ -156,6 +156,11 @@ body {
     color:var(--text-primary);
     line-height:1.5;
 }
+.description span{
+    font-weight:300;
+    color:var(--primary-orange);
+    font-style: italic;
+}
 #about-button{
     margin-top:20px;
     margin-bottom: 10px;
@@ -338,4 +343,170 @@ body {
     background: #FF6B9D;
     width: 24px;
     border-radius: 4px;
+}
+#projects{
+    display:flex;
+    gap: 30px;
+    padding:5px;
+    justify-content: center;
+    margin:0px;
+}
+
+#miniCard-contact {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    max-height: 350px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    margin-top:90px;
+}
+
+.miniCard-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.miniCard-header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.miniCard-header h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2D3436;
+    margin: 0 0 5px 0;
+}
+
+.miniCard-header p {
+    font-size: 16px;
+    color: #95A5A6;
+    margin: 0;
+}
+
+.miniCard-body {
+    margin-bottom: 25px;
+}
+
+.miniCard-body p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #636E72;
+    text-align: left;
+}
+
+.miniCard-footer {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.miniCard-footer a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #636E72;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.miniCard-footer svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.projects-section {
+    margin: 40px 20px;
+    padding: 40px 20px;
+}
+
+.projects-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 30px;
+}
+
+.card-project {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+    display: flex;
+    gap: 25px;
+    padding: 25px;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    max-width: 900px;
+}
+
+.card-project img {
+    width: 240px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.project-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2D3436;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.project-info p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #636E72;
+    margin: 0;
+}
+
+.project-technologies {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.project-technologies span {
+    font-size: 13px;
+    color: #95A5A6;
+    font-weight: 500;
+}
+
+.project-tech-list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.tech-badge {
+    background: #FFE5B4;
+    color: var(--text-primary);
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #FF6B35;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 8px;
 }
